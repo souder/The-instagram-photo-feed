@@ -1,0 +1,45 @@
+body{
+    margin:0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+header h1 {
+    background-color: white;
+    margin: 0;
+    padding-bottom: 6px;
+    width: 500px;
+}
+article{
+    display:flex;
+    justify-content: center;
+    background-color: #c0c0c0;
+    padding: 40px 0 10px 0;
+}
+article hr{
+    margin: 0;
+    opacity: 0.2;
+}
+section{
+    width: 500px;
+    background: white;
+    border-radius: 3px;
+
+}
+#post-title{
+display: flex;
+justify-content: space-between;
+}
+#post-title h2{
+    margin: 10px;
+    font-size: 18px;
+}
+#date{
+    padding: 10px 10px 0 0;
+    color: gray;
+}
+p{
+    margin: 10px 5px 20px 14px;
+}
